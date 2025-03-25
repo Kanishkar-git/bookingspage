@@ -152,7 +152,7 @@ function generateTicketPDF(seatsArray, showTime) {
   doc.text("Language: Tamil, 2D", 20, 50);
   doc.text(`Date & Time: ${dateElement.innerText}, ${showTime}`, 20, 60);
   doc.text("Venue: Shakthi Cinemas, Screen 2", 20, 70);
-  doc.text(`Seats: ${selectedSeatsText}`, 20, 80);
+  doc.text("Seats:A1,A2,A3", 20, 80);
   doc.text("Booking ID: WHQRT56786", 20, 90);
   doc.text(`Total Amount: ₹ ${total.innerText}`, 20, 100);
 
